@@ -1,0 +1,14 @@
+git config --global user.name evelynriandrade6
+git config --global user.email eveyandrade0.3@gmail.com
+
+
+\sql
+\connect alunods@localhost:3306
+
+
+create user 'vidal'@'10.89.240.%' identified by 'senai@604';
+create user 'bonini'@'10.89.240.%' identified by 'senai@604';
+create user 'negrijo'@'10.89.240.%' identified by 'senai@604';
+grant all on *.* to 'vidal'@'localhost';
+grant all on *.* to 'bonini'@'localhost';
+grant all on *.* to 'negrijo'@'localhost';
