@@ -1,8 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `vio_vidal` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `vio_vidal`;
+CREATE DATABASE  IF NOT EXISTS `vio_evelyn` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `vio_evelyn`;
 -- MySQL dump 10.13  Distrib 8.0.36, for Win64 (x86_64)
 --
--- Host: localhost    Database: vio_vidal
+-- Host: localhost    Database: vio_evelyn
 -- ------------------------------------------------------
 -- Server version	8.0.36
 
@@ -262,11 +262,11 @@ INSERT INTO `usuario` VALUES (1,'João Silva','joao.silva@example.com','senha123
 UNLOCK TABLES;
 
 --
--- Dumping events for database 'vio_vidal'
+-- Dumping events for database 'vio_evelyn'
 --
 
 --
--- Dumping routines for database 'vio_vidal'
+-- Dumping routines for database 'vio_evelyn'
 --
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
